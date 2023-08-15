@@ -26,7 +26,7 @@ export default function RootLayout({ children }) {
               {/* tag âncora */}
               <Link href="/">início</Link>
               <Link href="/about">sobre</Link>
-              <Link href="/subscribers">inscritos</Link>
+              <Link href="/admin/subscribers">inscritos</Link>
             </nav>
           </header>
 
