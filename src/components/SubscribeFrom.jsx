@@ -1,3 +1,5 @@
+// informa ao compilador que essa página deve ser renderizada no cliente
+'use client';
 import { useState } from 'react';
 
 export default function SubscribeForm() {
