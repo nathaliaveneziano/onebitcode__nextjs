@@ -1,11 +1,22 @@
 import mysql from 'mysql2/promise';
 
+// // Função para simular erro
+// function waitFor(ms) {
+//   return new Promise((resolve) => setTimeout(() => resolve(), ms));
+// }
+
 export default async function Subscribers() {
   const connection = await mysql.createConnection(
     'mysql://nextjs:nextjs@localhost:3306/next13'
   );
   const [rows] = await connection.query('SELECT * FROM Subscribers;');
   connection.end();
+
+  // // Loading
+  // await waitFor(3000);
+
+  // // Simulando Erro
+  // throw new Error('Deu ruim');
 
   return (
     <main>
