@@ -1,3 +1,14 @@
+export const metadata = {
+  title: 'Sobre | Front-End Insights',
+  description:
+    'A Front-End Insights é uma newsletter semanal dedicada a fornecer conhecimentos valiosos sobre o mundo do desenvolvimento front-end.',
+  openGraph: {
+    title: 'Sobre | Front-End Insights',
+    description:
+      'A Front-End Insights é uma newsletter semanal dedicada a fornecer conhecimentos valiosos sobre o mundo do desenvolvimento front-end.',
+  },
+};
+
 export default function About() {
   const h1 = 'mt-10 mb-6 text-2xl font-bold';
   const h2 = 'mt-8 mb-4 text-xl font-bold';
